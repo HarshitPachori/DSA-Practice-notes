@@ -2,7 +2,14 @@
 
 Built on top of the Rising Brain pattern-wise sheet. Structure follows the sheet exactly: **Topic → Pattern → Sub-pattern**, so you can map every problem you pick directly to a trigger and template below.
 
-How to use this: read the trigger for the pattern first, before touching the problem. If your gut recognizes the shape from the trigger, write the solution yourself using the template as a skeleton, not a copy source. Only fall back to the template when you're stuck for more than 15–20 minutes. Then check edge cases against your own solution before moving to the next problem in that sub-pattern.
+# How to actually use this sheet
+
+Work topic by topic in the order above — it's sequenced so each topic's mental tools (two-pointer, then sliding window, then prefix sums) get reused by the next one, rather than jumping around and re-learning fundamentals mid-stream.
+
+For each pattern: read the trigger, attempt one Easy and one Medium problem from the list cold, using only the trigger as a hint. If you solve it, move to the next sub-pattern. If you get stuck past 15-20 minutes, look at the template, understand *why* it's shaped that way, then close it and re-attempt from memory. Come back to any pattern you struggled with after finishing the topic, not immediately — the gap is what tests whether it actually stuck.
+
+Cross-check tricky spots against a second source when the trigger and template alone don't fully click — NeetCode's videos are strong for visual intuition on Trees/Graphs/DP, takeUforward is strong for the binary-search-on-answers and DP-on-strings templates specifically, and Aditya Verma's DP playlist remains one of the clearest walkthroughs of the Knapsack family if the state-transition reasoning above doesn't land on first read.
+
 
 ---
 
@@ -3167,11 +3174,3 @@ public int subarrayXorQueries(int[] arr, int[][] queries) {
 **Problems:** Sum of Subset XOR Totals, Maximum XOR of Two Numbers in Array, Subarray XOR Queries / K-th XOR, Maximum XOR With an Element From Array.
 
 ---
-
-# How to actually use this sheet
-
-Work topic by topic in the order above — it's sequenced so each topic's mental tools (two-pointer, then sliding window, then prefix sums) get reused by the next one, rather than jumping around and re-learning fundamentals mid-stream.
-
-For each pattern: read the trigger, attempt one Easy and one Medium problem from the list cold, using only the trigger as a hint. If you solve it, move to the next sub-pattern. If you get stuck past 15-20 minutes, look at the template, understand *why* it's shaped that way, then close it and re-attempt from memory. Come back to any pattern you struggled with after finishing the topic, not immediately — the gap is what tests whether it actually stuck.
-
-Cross-check tricky spots against a second source when the trigger and template alone don't fully click — NeetCode's videos are strong for visual intuition on Trees/Graphs/DP, takeUforward is strong for the binary-search-on-answers and DP-on-strings templates specifically, and Aditya Verma's DP playlist remains one of the clearest walkthroughs of the Knapsack family if the state-transition reasoning above doesn't land on first read.
